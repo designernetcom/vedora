@@ -4,7 +4,7 @@
 
 <head>
     <title>Vedora</title>
-    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/Vedora_png.png" type="image/png" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <meta content="Vedora" name="description" >
@@ -28,9 +28,26 @@
 
     
 
-        <!-- header begin -->
-         <header class="transparent">
-           
+            <!-- header begin -->
+        <header class="header-light transparent">
+            <div id="topbar" style="background-color: #076a13;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="d-flex">
+                                    <div class="topbar-widget me-3"><a href="#"><i class="icofont-clock-time"></i>Monday - Friday 08.00 - 18.00</a></div>
+                                    <div class="topbar-widget me-3"><a href="#"><i class="icofont-location-pin"></i>100 S Main St, New York, NY</a></div>
+                                    <div class="topbar-widget me-3"><a href="#"><i class="icofont-envelope"></i>contact@gardyn.com</a></div>
+                                </div>
+
+                      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>            
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -40,22 +57,23 @@
                                 <div id="logo">
                                     <a href="index.html">
                                         <img class="logo-main" src="images/Vedora_png.png" alt="" >
-                                        <img class="logo-mobile" src="images/Vedora_png.png" alt=""  style="height: 70px;">
+                                        <img class="logo-scroll" src="images/logo-black.webp" alt="" >
+                                        <img class="logo-mobile" src="images/logo-black.webp" alt="" >
                                     </a>
                                 </div>
                                 <!-- logo end -->
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainemenu begin -->
-                                <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a>
+                              <ul id="mainmenu">
+                                    <li><a class="menu-item" href="index.html" style="color: #d68f00;">Home</a>
                                     
                                     </li>
-                                       <li><a class="menu-item" href="index.html">About Us</a>
+                                       <li><a class="menu-item" href="index.html" style="color: #d68f00;">About Us</a>
                                     
                                     </li>
                         
-                                    <li><a class="menu-item" href="#">Products</a>
+                                    <li><a class="menu-item" href="#" style="color: #d68f00;">Products</a>
                                         <ul>
                                             <li><a href="#">Vegetables</a>
                                              <ul>
@@ -130,19 +148,23 @@
                                         </ul>
                                     </li>
                         
-                                    <li><a class="menu-item" href="#">Gallery</a></li>
-                                    <li><a class="menu-item" href="#">Blog</a></li>
-                                    <li><a class="menu-item" href="#">Contact</a></li>
+                                    <li><a class="menu-item" href="#" style="color: #d68f00;">Gallery</a></li>
+                                    <li><a class="menu-item" href="#" style="color: #d68f00;">Blog</a></li>
+                                    <li><a class="menu-item" href="#" style="color: #d68f00;">Contact</a></li>
 
                                 </ul>
                                 <!-- mainmenu end -->
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">          
-                                    <a href="#" class="btn-main btn-line">Brochure</a>
+                                    <a href="contact.html" class="btn-main">Get In Touch</a>
                                     <span id="menu-btn"></span>
                                 </div>
 
+                                <div id="btn-extra">
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -163,43 +185,6 @@
                       <div class="swiper-wrapper">
 
                         <!-- Slides -->
-                        <div class="swiper-slide">
-                                        <div class="container-fluid">
-                                          <div class="video-wrapper">
-            <iframe
-                src="https://www.youtube.com/embed/JJehL47xBVU?autoplay=1&mute=1&loop=1&playlist=JJehL47xBVU&controls=0&showinfo=0&modestbranding=1&rel=0"
-                frameborder="0" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>
-        </div>
-                                        
-                                    </div>
-                        </div>                        
-                        <!-- Slides -->
-  <style>
-            .video-wrapper {
-                position: relative;
-                width: 100%;
-                height: 100vh;
-                /* always fill full screen height */
-                overflow: hidden;
-            }
-
-            .video-wrapper iframe {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                width: 100vw;
-                height: 56.25vw;
-                /* 16:9 ratio based on width */
-                min-height: 100vh;
-                min-width: 177.77vh;
-                /* 16:9 ratio based on height */
-                transform: translate(-50%, -50%);
-                object-fit: cover;
-                pointer-events: none;
-                /* makes it non-clickable like a background */
-            }
-        </style>
-                  <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="swiper-inner" data-bgimage="url(images/slider/Green-Leafy-Vegetables-1250x380.jpg.webp)">
                                 <div class="sw-caption z-1000">
@@ -293,11 +278,8 @@
                     <div class="row g-4 align-items-center">
                         <div class="col-lg-6">
                             <div class="relative">
-                                <div class="rounded-1 bg-body w-90 overflow-hidden wow zoomIn">
-                                    <img src="images/misc/1.webp" class="w-100 jarallax wow scaleIn" alt="">
-                                </div>
-                                <div class="rounded-1 bg-body w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn" data-wow-delay=".2s">
-                                    <img src="images/slider/1440x960-spices.webp" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
+                                <div class="rounded-1 bg-body w-100 overflow-hidden wow zoomIn">
+                                    <img src="images/slider/Green-Leafy-Vegetables-1250x380.jpg.webp" class="w-100 jarallax wow scaleIn" alt="">
                                 </div>
                             </div>
                         </div>
@@ -532,8 +514,8 @@
                                 <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
                                 <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">02</div>
                                 <div>
-                                    <h4>Global Export Network </h4>
-                                    <p class="mb-0">Supplying to 100+ countries with reliable logistics partners.</p>
+                                    <h4>Strong Team</h4>
+                                    <p class="mb-0">Leadership from the best team from the industry.</p>
                                 </div>
                             </div>
                         </div>
@@ -554,8 +536,8 @@
                                 <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
                                 <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">04</div>
                                 <div>
-                                    <h4>Trust & Reliability</h4>
-                                    <p class="mb-0">25+ years of expertise in agriculture export & long-term client partnerships.</p>
+                                    <h4>Customer Orientation</h4>
+                                    <p class="mb-0">Exceeding expectations of most demanding customers.</p>
                                 </div>
                             </div>
                         </div>
@@ -601,7 +583,7 @@
                             <div id="new-arrivals-carousel" class="owl-carousel owl-4-cols">
                                 <!-- product item begin -->
                                 <div class="item">
-                                    <div class="de__pcard text-center">
+                                    <div class="de__pcard text-center" style="border: 3px solid #F5A623; border-radius: 8px;">
                                         <div class="atr__images">
                                           <div class="atr__promo">
                                                 Millets
@@ -630,7 +612,7 @@
 
                                 <!-- product item begin -->
                                  <div class="item">
-                                    <div class="de__pcard text-center">
+                                    <div class="de__pcard text-center" style="border: 3px solid #F5A623; border-radius: 8px;">
                                         <div class="atr__images">
                                             <div class="atr__promo">
                                                 Spices
@@ -655,10 +637,10 @@
 
                                 <!-- product item begin -->
                                  <div class="item">
-                                    <div class="de__pcard text-center">
+                                    <div class="de__pcard text-center" style="border: 3px solid #F5A623; border-radius: 8px;">
                                         <div class="atr__images">
                                             <div class="atr__promo">
-                                                Dry Fruits
+                                                Dehydrated Products
                                             </div>
                                             <a href="#">
                                                 <img class="atr__image-main" src="images/slider/mix-dry-fruits-500x500-1.webp">
@@ -666,11 +648,11 @@
                                             </a>
                                             <div class="atr__extra-menu">
                                                 <a class="atr__quick-view" href="#"><i class="icon_zoom-in_alt"></i></a>
-                                              
+
                                             </div>
                                         </div>
 
-                           <h3>Dry Fruits</h3>
+                           <h3>Dehydrated Products</h3>
 
                               
                                         
@@ -680,10 +662,10 @@
 
                                 <!-- product item begin -->
                                 <div class="item">
-                                    <div class="de__pcard text-center">
+                                    <div class="de__pcard text-center" style="border: 3px solid #F5A623; border-radius: 8px;">
                                         <div class="atr__images">
                                             <div class="atr__promo">
-                                                Vegetables
+                                                Fresh Vegetables
                                             </div>
                                             <a href="#">
                                                 <img class="atr__image-main" src="images/slider/images-1.jpg" height="500px">
@@ -691,12 +673,12 @@
                                             </a>
                                             <div class="atr__extra-menu">
                                                 <a class="atr__quick-view" href="#"><i class="icon_zoom-in_alt"></i></a>
-                                              
+
                                             </div>
                                         </div>
 
-                           
-                              <h3>Vegetables</h3>
+
+                              <h3>Fresh Vegetables</h3>
                               
                                         
                                     </div>
@@ -724,7 +706,7 @@
                         <h3 class="text-uppercase">Latest Blog</h3>
                     </div>
                     <div class="col-lg-6">
-                        <div class="bg-light overflow-hidden">
+                        <div class="bg-light overflow-hidden" style="border: 3px solid #F5A623; border-radius: 8px;">
                             <div class="row g-2">
                                 <div class="col-sm-6">
                                     <div class="auto-height relative" data-bgimage="url(images/blog/1.webp)">
@@ -749,7 +731,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="bg-light overflow-hidden">
+                        <div class="bg-light overflow-hidden" style="border: 3px solid #F5A623; border-radius: 8px;">
                             <div class="row g-2">
                                 <div class="col-sm-6">
                                     <div class="auto-height relative" data-bgimage="url(images/blog/2.webp)">
@@ -812,7 +794,7 @@
                                             <div class="spacer-20"></div>
 
                                             <div class="fw-bold text-dark"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
-                                            Pune
+                                            Pune, Maharashtra, India
 
                                             <div class="spacer-20"></div>
 
@@ -985,10 +967,12 @@
                         <div class="col-lg-6 col-sm-6">
                             <div class="widget">
                                 <h5>Company</h5>
-                                <ul>                                        
+                                <ul>
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Products</a></li>                                   
+                                    <li><a href="#">Products</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Certification</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
@@ -1016,7 +1000,7 @@
                         <div class="spacer-20"></div>
 
                         <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
-                        Pune
+                        Pune, Maharashtra, India
 
                         <div class="spacer-20"></div>
 
